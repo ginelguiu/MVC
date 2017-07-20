@@ -5,9 +5,13 @@ package ro.teamnet.zth.fmk;
  */
 public class MethodAttributes {
 
-    String controllerClass;
-    String methodName;
-    String methodType;
+    // url: /emp/all  mrth="get"
+
+    // key: url+meth
+
+    String controllerClass; //EmpCtrl  -> /emp
+    String methodName;  // findAll   -/all
+    String methodType;  // GET
 
     public String getControllerClass() {
         return controllerClass;
